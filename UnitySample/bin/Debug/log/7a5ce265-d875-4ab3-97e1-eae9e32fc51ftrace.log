@@ -1,0 +1,16 @@
+1/31/2020 9:35:09 AM Start Bootstrapper, Information
+1/31/2020 9:35:09 AM unknown User: Enter Method: System.ComponentModel.INotifyPropertyChanged.add_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler), Verbose
+1/31/2020 9:35:09 AM unknown User: Exit Method: System.ComponentModel.INotifyPropertyChanged.add_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler), Verbose
+1/31/2020 9:35:09 AM unknown User: Enter Method: UnitySample.MainWindowViewModel.get_RandomObjects(), Verbose
+1/31/2020 9:35:09 AM unknown User: Exit Method: UnitySample.MainWindowViewModel.get_RandomObjects(), Verbose
+1/31/2020 9:35:09 AM End of Bootstrapper, Information
+1/31/2020 9:37:20 AM unknown User: Enter Method: UnitySample.MainWindowViewModel.set_RandomObjects(System.Collections.ObjectModel.ObservableCollection`1[UnitySample.Common.Entities.RandomObject]), Verbose
+1/31/2020 9:37:20 AM unknown User: Enter Method: UnitySample.MainWindowViewModel.get_RandomObjects(), Verbose
+1/31/2020 9:37:20 AM unknown User: Exit Method: UnitySample.MainWindowViewModel.get_RandomObjects(), Verbose
+1/31/2020 9:37:20 AM unknown User: Enter Method: UnitySample.MainWindowViewModel.get_RandomObjects(), Verbose
+1/31/2020 9:37:20 AM unknown User: Exit Method: UnitySample.MainWindowViewModel.get_RandomObjects(), Verbose
+1/31/2020 9:37:20 AM unknown User: Exit Method: UnitySample.MainWindowViewModel.set_RandomObjects(System.Collections.ObjectModel.ObservableCollection`1[UnitySample.Common.Entities.RandomObject]), Verbose
+1/31/2020 9:37:20 AM unknown User: Enter Method: UnitySample.MainWindowViewModel.get_RandomObjects(), Verbose
+1/31/2020 9:37:20 AM unknown User: Exit Method: UnitySample.MainWindowViewModel.get_RandomObjects(), Verbose
+1/31/2020 10:45:35 AM unknown User: Enter Method: System.ComponentModel.INotifyPropertyChanged.remove_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler), Verbose
+1/31/2020 10:45:35 AM unknown User: Exit Method: System.ComponentModel.INotifyPropertyChanged.remove_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler), Verbose

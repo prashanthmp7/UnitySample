@@ -1,0 +1,30 @@
+﻿<Window x:Class="UnitySample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mvvm="http://prismlibrary.com/"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UnitySample"
+        mc:Ignorable="d"
+         mvvm:ViewModelLocator.AutoWireViewModel="true" d:DataContext="{d:DesignInstance viewModels:MainWindowViewModel}" 
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="150" Content="Get data from service" Command="{Binding GetDataCommand}"></Button>
+            <ListView Grid.Row="1" Margin="10" ItemsSource="{Binding RandomObjects}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Id}" Margin="2"/>
+                            <TextBlock Text="{Binding RandomObjectInstance}" Margin="2" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </Grid>
+</Window>
